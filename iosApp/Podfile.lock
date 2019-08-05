@@ -1,16 +1,16 @@
 PODS:
-  - app (0.1)
+  - lib (0.1)
 
 DEPENDENCIES:
-  - app (from `../app`)
+  - lib (from `../lib`)
 
 EXTERNAL SOURCES:
-  app:
-    :path: "../app"
+  lib:
+    :path: "../lib"
 
 SPEC CHECKSUMS:
-  app: 8b610271a7bd879245fb7dcf18fd6e2f2c4deb0b
+  lib: aff980d15277c678dd0f802bf3bea4dca79cddf3
 
-PODFILE CHECKSUM: a59ae4ede205a9902641eb92a01246777e20c4a5
+PODFILE CHECKSUM: cf1dd2d45f4a60082fe2d57beb7440b5241701ee
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.2

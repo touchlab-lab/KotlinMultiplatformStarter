@@ -1,0 +1,16 @@
+PODS:
+  - app (0.1)
+
+DEPENDENCIES:
+  - app (from `../app`)
+
+EXTERNAL SOURCES:
+  app:
+    :path: "../app"
+
+SPEC CHECKSUMS:
+  app: 8b610271a7bd879245fb7dcf18fd6e2f2c4deb0b
+
+PODFILE CHECKSUM: a59ae4ede205a9902641eb92a01246777e20c4a5
+
+COCOAPODS: 1.6.1

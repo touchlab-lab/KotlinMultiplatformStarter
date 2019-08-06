@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'app'
     spec.version                  = '0.1'
-    spec.homepage                 = 'https://github.com/touchlab/WhereverThisGoes'
+    spec.homepage                 = 'https://github.com/touchlab/KotlinMultiplatformStarter'
     spec.source                   = { :git => "Not Published", :tag => "Cocoapods/#{spec.name}/#{spec.version}" }
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary                  = 'Basic Sample App'
+    spec.summary                  = 'KMP Starter Project'
 
     spec.static_framework         = true
     spec.vendored_frameworks      = "build/cocoapods/framework/#{spec.name}.framework"

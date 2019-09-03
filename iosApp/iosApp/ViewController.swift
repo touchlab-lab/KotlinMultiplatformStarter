@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import app
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        label.text = "Hello, iOS world!"
+        label.text = Greeting().hello()
     }
 }

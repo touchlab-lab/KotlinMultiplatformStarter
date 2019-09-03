@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val textView = findViewById<TextView>(R.id.main_text)
-        textView.text = "Hello, Android world!"
+        textView.text = Greeting().hello()
     }
 }
